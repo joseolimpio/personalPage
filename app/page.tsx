@@ -131,13 +131,13 @@ export default function Home() {
                     My technical toolkit and areas of expertise
                   </p>
                 </div>
-                <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <BugOff className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <BugOff className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">Manual Testing</h3>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs sm:text-sm text-muted-foreground">
                           Exploratory testing, regression testing, black-box and white-box testing, and test case
                           design.
                         </p>
@@ -145,76 +145,78 @@ export default function Home() {
                     </CardContent>
                   </Card>
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <Code className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <Code className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">Test Automation</h3>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs sm:text-sm text-muted-foreground">
                           Cypress, Playwright, Vitest, Gherkin, and custom automation frameworks using JavaScript.
                         </p>
                       </div>
                     </CardContent>
                   </Card>
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <Workflow className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <Workflow className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">API Testing</h3>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs sm:text-sm text-muted-foreground">
                           Manual and automated API testing, integration testing.
                         </p>
                       </div>
                     </CardContent>
                   </Card>
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <PlayCircle className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <PlayCircle className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">Programming</h3>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs sm:text-sm text-muted-foreground">
                           JavaScript, Java, C#, and test automation scripting.
                         </p>
                       </div>
                     </CardContent>
                   </Card>
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <FileCode className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <FileCode className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">Bug Management</h3>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-xs sm:text-sm text-muted-foreground">
                           Bug reporting, tracking, and verification using Jira, Mantis, and HP ALM Quality Center.
                         </p>
                       </div>
                     </CardContent>
                   </Card>
                   <Card>
-                    <CardContent className="flex flex-col items-center space-y-4 p-6">
-                      <CheckCircle className="h-12 w-12 text-primary" />
-                      <div className="space-y-2 text-center">
+                    <CardContent className="flex flex-col items-center space-y-3 p-4 sm:p-6">
+                      <CheckCircle className="h-10 w-10 sm:h-12 sm:w-12 text-primary" />
+                      <div className="space-y-1 sm:space-y-2 text-center">
                         <h3 className="font-bold">Team Management</h3>
-                        <p className="text-sm text-muted-foreground">Team leadership and client communication.</p>
+                        <p className="text-xs sm:text-sm text-muted-foreground">
+                          Team leadership and client communication.
+                        </p>
                       </div>
                     </CardContent>
                   </Card>
                 </div>
-                <div className="flex flex-wrap justify-center gap-2 pt-8">
-                  <Badge className="px-3 py-1">Cypress</Badge>
-                  <Badge className="px-3 py-1">Playwright</Badge>
-                  <Badge className="px-3 py-1">Vitest</Badge>
-                  <Badge className="px-3 py-1">Gherkin</Badge>
-                  <Badge className="px-3 py-1">JavaScript</Badge>
-                  <Badge className="px-3 py-1">Java</Badge>
-                  <Badge className="px-3 py-1">C#</Badge>
-                  <Badge className="px-3 py-1">API Testing</Badge>
-                  <Badge className="px-3 py-1">GitHub</Badge>
-                  <Badge className="px-3 py-1">Jira</Badge>
-                  <Badge className="px-3 py-1">Mantis</Badge>
-                  <Badge className="px-3 py-1">HP ALM</Badge>
-                  <Badge className="px-3 py-1">Black-box Testing</Badge>
-                  <Badge className="px-3 py-1">White-box Testing</Badge>
-                  <Badge className="px-3 py-1">Regression Testing</Badge>
-                  <Badge className="px-3 py-1">Performance Testing</Badge>
+                <div className="flex flex-wrap justify-center gap-2 pt-6 sm:pt-8">
+                  <Badge className="px-3 py-1 text-xs">Cypress</Badge>
+                  <Badge className="px-3 py-1 text-xs">Playwright</Badge>
+                  <Badge className="px-3 py-1 text-xs">Vitest</Badge>
+                  <Badge className="px-3 py-1 text-xs">Gherkin</Badge>
+                  <Badge className="px-3 py-1 text-xs">JavaScript</Badge>
+                  <Badge className="px-3 py-1 text-xs">Java</Badge>
+                  <Badge className="px-3 py-1 text-xs">C#</Badge>
+                  <Badge className="px-3 py-1 text-xs">API Testing</Badge>
+                  <Badge className="px-3 py-1 text-xs">GitHub</Badge>
+                  <Badge className="px-3 py-1 text-xs">Jira</Badge>
+                  <Badge className="px-3 py-1 text-xs">Mantis</Badge>
+                  <Badge className="px-3 py-1 text-xs">HP ALM</Badge>
+                  <Badge className="px-3 py-1 text-xs">Black-box Testing</Badge>
+                  <Badge className="px-3 py-1 text-xs">White-box Testing</Badge>
+                  <Badge className="px-3 py-1 text-xs">Regression Testing</Badge>
+                  <Badge className="px-3 py-1 text-xs">Performance Testing</Badge>
                 </div>
               </div>
             </div>

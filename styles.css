@@ -106,8 +106,16 @@ a:visited {
   gap: 1.5rem;
 }
 
+.space-y-1 > * + * {
+  margin-top: 0.25rem;
+}
+
 .space-y-2 > * + * {
   margin-top: 0.5rem;
+}
+
+.space-y-3 > * + * {
+  margin-top: 0.75rem;
 }
 
 .space-y-4 > * + * {
@@ -175,6 +183,10 @@ a:visited {
   padding-top: 1rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -232,6 +244,10 @@ a:visited {
 
 .text-left {
   text-align: left;
+}
+
+.text-xs {
+  font-size: 0.75rem;
 }
 
 .text-sm {
@@ -450,6 +466,10 @@ a:visited {
   height: 2rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -464,6 +484,10 @@ a:visited {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-12 {
@@ -588,6 +612,10 @@ nav a:hover {
     font-size: 3.75rem;
   }
 
+  .sm\:text-sm {
+    font-size: 0.875rem;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -598,6 +626,26 @@ nav a:hover {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:space-y-2 {
+    margin-top: 0.5rem;
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .sm\:h-12 {
+    height: 3rem;
+  }
+
+  .sm\:w-12 {
+    width: 3rem;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
   }
 }
 
