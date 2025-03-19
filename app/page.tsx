@@ -311,12 +311,17 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="mx-auto w-full max-w-3xl space-y-8">
-                  <div className="relative pl-8 border-l-2 border-muted-foreground/20">
-                    <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                    <div className="space-y-2">
-                      <h3 className="text-xl font-bold">Quality Assurance Engineer</h3>
-                      <p className="text-muted-foreground">Mindera | 11/2019 - Present</p>
-                      <p className="text-sm font-medium">Key Projects: Harrods, Farfetch, 2K</p>
+                  {/* Mindera Experience */}
+                  <Card className="p-6">
+                    <div className="flex flex-col space-y-4">
+                      <div className="flex items-center justify-center">
+                        <div className="h-4 w-4 rounded-full bg-primary mr-4"></div>
+                        <div className="text-center">
+                          <h3 className="text-xl font-bold">Quality Assurance Engineer</h3>
+                          <p className="text-muted-foreground">Mindera | 11/2019 - Present</p>
+                        </div>
+                      </div>
+                      <p className="text-sm font-medium text-center">Key Projects: Harrods, Farfetch, 2K</p>
                       <ul className="list-disc pl-5 space-y-2 text-left">
                         <li>Writing and executing black-box and white-box tests</li>
                         <li>Performing API testing (manual and automated)</li>
@@ -326,16 +331,22 @@ export default function Home() {
                         <li>Team management</li>
                         <li>Client communication and follow-ups</li>
                       </ul>
-                      <p className="text-sm font-medium pt-2">
+                      <p className="text-sm font-medium pt-2 text-center">
                         Tools Used: Cypress, Playwright, JavaScript, TypeScript, Jira
                       </p>
                     </div>
-                  </div>
-                  <div className="relative pl-8 border-l-2 border-muted-foreground/20">
-                    <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                    <div className="space-y-2">
-                      <h3 className="text-xl font-bold">Quality Analyst</h3>
-                      <p className="text-muted-foreground">WEX | 09/2019 - 10/2019</p>
+                  </Card>
+
+                  {/* WEX Experience */}
+                  <Card className="p-6">
+                    <div className="flex flex-col space-y-4">
+                      <div className="flex items-center justify-center">
+                        <div className="h-4 w-4 rounded-full bg-primary mr-4"></div>
+                        <div className="text-center">
+                          <h3 className="text-xl font-bold">Quality Analyst</h3>
+                          <p className="text-muted-foreground">WEX | 09/2019 - 10/2019</p>
+                        </div>
+                      </div>
                       <ul className="list-disc pl-5 space-y-2 text-left">
                         <li>Executing black-box tests</li>
                         <li>Conducting exploratory and regression testing</li>
@@ -343,14 +354,20 @@ export default function Home() {
                         <li>Creating manual and automated tests</li>
                       </ul>
                     </div>
-                  </div>
-                  <div className="relative pl-8 border-l-2 border-muted-foreground/20">
-                    <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
-                    <div className="space-y-2">
-                      <h3 className="text-xl font-bold">Quality Analyst</h3>
-                      <p className="text-muted-foreground">
-                        BRISA – Sociedade para o Desenvolvimento da Tecnologia da Informação | 08/2014 - 08/2019
-                      </p>
+                  </Card>
+
+                  {/* BRISA Experience */}
+                  <Card className="p-6">
+                    <div className="flex flex-col space-y-4">
+                      <div className="flex items-center justify-center">
+                        <div className="h-4 w-4 rounded-full bg-primary mr-4"></div>
+                        <div className="text-center">
+                          <h3 className="text-xl font-bold">Quality Analyst</h3>
+                          <p className="text-muted-foreground">
+                            BRISA – Sociedade para o Desenvolvimento da Tecnologia da Informação | 08/2014 - 08/2019
+                          </p>
+                        </div>
+                      </div>
                       <ul className="list-disc pl-5 space-y-2 text-left">
                         <li>Executing black-box tests on mobile devices (smartphones and wearables)</li>
                         <li>
@@ -359,9 +376,9 @@ export default function Home() {
                         </li>
                         <li>Bug reporting and tracking</li>
                       </ul>
-                      <p className="text-sm font-medium pt-2">Tools Used: Mantis, HP ALM Quality Center</p>
+                      <p className="text-sm font-medium pt-2 text-center">Tools Used: Mantis, HP ALM Quality Center</p>
                     </div>
-                  </div>
+                  </Card>
                 </div>
               </div>
             </div>
@@ -414,18 +431,18 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="mx-auto w-full max-w-3xl">
-                  <div className="flex flex-col sm:flex-row gap-3 w-full">
+                  <div className="flex flex-col sm:flex-row justify-center gap-3 w-full">
                     <Button asChild className="flex-1" size="lg">
                       <Link href="mailto:joseolimpionegrao@gmail.com">
                         <Mail className="mr-2 h-6 w-6" /> Email Me
                       </Link>
                     </Button>
                     <Button variant="outline" asChild className="flex-1" size="lg">
-                      <Link href="tel:+351910928570">
-                        <span role="img" aria-label="phone" className="mr-2 text-xl">
-                          📱
+                      <Link href="https://github.com/joseolimpio" target="_blank" rel="noopener noreferrer">
+                        <span role="img" aria-label="github" className="mr-2 text-xl">
+                          <i data-lucide="github" className="h-6 w-6"></i>
                         </span>{" "}
-                        +351 910 928 570
+                        GitHub
                       </Link>
                     </Button>
                     <Button variant="secondary" asChild className="flex-1" size="lg">
