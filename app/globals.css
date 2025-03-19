@@ -61,5 +61,31 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Make visited links look the same as unvisited links */
+  a:visited {
+    color: inherit;
+  }
+
+  /* Ensure buttons with links maintain their color when visited */
+  .btn:visited,
+  .btn a:visited {
+    color: inherit;
+  }
+
+  .btn-primary:visited,
+  .btn-primary a:visited {
+    color: hsl(var(--primary-foreground));
+  }
+
+  .btn-secondary:visited,
+  .btn-secondary a:visited {
+    color: hsl(var(--secondary-foreground));
+  }
+
+  .btn-outline:visited,
+  .btn-outline a:visited {
+    color: hsl(var(--foreground));
+  }
 }
 

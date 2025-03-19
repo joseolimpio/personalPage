@@ -64,6 +64,11 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Make visited links look the same as unvisited links */
+a:visited {
+  color: inherit;
+}
+
 /* Layout */
 .flex {
   display: flex;
@@ -329,6 +334,12 @@ body {
   text-decoration: none;
 }
 
+/* Make sure buttons with links inside maintain their color when visited */
+.btn:visited,
+.btn a:visited {
+  color: inherit;
+}
+
 .btn-sm {
   height: 2rem;
   padding-left: 0.75rem;
@@ -359,6 +370,11 @@ body {
   background-color: hsl(var(--primary) / 0.9);
 }
 
+.btn-primary:visited,
+.btn-primary a:visited {
+  color: hsl(var(--primary-foreground));
+}
+
 .btn-secondary {
   background-color: hsl(var(--secondary));
   color: hsl(var(--secondary-foreground));
@@ -366,6 +382,11 @@ body {
 
 .btn-secondary:hover {
   background-color: hsl(var(--secondary) / 0.9);
+}
+
+.btn-secondary:visited,
+.btn-secondary a:visited {
+  color: hsl(var(--secondary-foreground));
 }
 
 .btn-outline {
@@ -377,6 +398,11 @@ body {
 .btn-outline:hover {
   background-color: hsl(var(--accent));
   color: hsl(var(--accent-foreground));
+}
+
+.btn-outline:visited,
+.btn-outline a:visited {
+  color: hsl(var(--foreground));
 }
 
 /* Header */
@@ -525,6 +551,16 @@ body {
 }
 
 .hover\:text-primary:hover {
+  color: hsl(var(--primary));
+}
+
+/* Navigation links */
+nav a,
+nav a:visited {
+  color: hsl(var(--foreground));
+}
+
+nav a:hover {
   color: hsl(var(--primary));
 }
 
