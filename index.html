@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Negrão - Quality Assurance Engineer</title>
+  <meta name="description" content="Professional portfolio of José Negrão, a Quality Assurance Engineer specializing in test automation and quality processes.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark">
+  <div class="flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div class="container flex h-16 items-center justify-between">
+        <div class="font-bold text-xl">
+          QA<span class="text-primary">Engineer</span>
+        </div>
+        <nav class="hidden md:flex gap-6">
+          <a href="#about" class="text-sm font-medium hover:text-primary transition-colors">About</a>
+          <a href="#skills" class="text-sm font-medium hover:text-primary transition-colors">Skills</a>
+          <a href="#education" class="text-sm font-medium hover:text-primary transition-colors">Education</a>
+          <a href="#experience" class="text-sm font-medium hover:text-primary transition-colors">Experience</a>
+          <a href="#certifications" class="text-sm font-medium hover:text-primary transition-colors">Certifications</a>
+          <a href="#contact" class="text-sm font-medium hover:text-primary transition-colors">Contact</a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <button id="theme-toggle" class="btn btn-outline btn-icon">
+            <i data-lucide="sun" class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"></i>
+            <i data-lucide="moon" class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"></i>
+            <span class="sr-only">Toggle theme</span>
+          </button>
+          <a href="#contact" class="btn btn-sm">Hire Me</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1" id="portfolio-content">
+      <!-- Hero Section -->
+      <section class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="space-y-4 max-w-3xl">
+              <div class="space-y-6">
+                <div class="space-y-2">
+                  <h1 class="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none">José Negrão</h1>
+                  <h2 class="text-xl font-medium text-muted-foreground sm:text-3xl mt-4">
+                    Quality Assurance Engineer
+                  </h2>
+                  <p class="mx-auto text-muted-foreground md:text-xl max-w-2xl">
+                    Quality Assurance Engineer with 10+ years of experience in test automation, API testing, and
+                    software quality improvement. Passionate about optimizing testing processes to enhance product
+                    reliability in e-commerce and fintech sectors.
+                  </p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center pt-4">
+                  <a href="#contact" class="btn btn-lg btn-primary w-full sm:w-auto">
+                    Contact Me <i data-lucide="arrow-right" class="ml-2 h-4 w-4"></i>
+                  </a>
+                  <a href="#experience" class="btn btn-lg btn-outline w-full sm:w-auto">View Experience</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  Based in Porto, Portugal with a passion for quality assurance and test automation
+                </p>
+              </div>
+              <div class="mx-auto max-w-[700px] space-y-4 text-left">
+                <p>
+                  I'm a dedicated Quality Assurance Engineer with over 10 years of experience in ensuring software
+                  quality across e-commerce and fintech sectors. My expertise spans test automation, API testing, and
+                  implementing robust QA processes.
+                </p>
+                <p>
+                  With a background in Information Systems and certifications in testing, I've helped numerous
+                  companies deliver high-quality software products. I believe in a proactive approach to quality
+                  assurance, focusing on preventing issues rather than just finding them.
+                </p>
+                <p>
+                  I'm fluent in English (C1 Advanced) and Portuguese (Native), which allows me to communicate
+                  effectively with international teams and clients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills & Expertise</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  My technical toolkit and areas of expertise
+                </p>
+              </div>
+              <div class="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="bug-off" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">Manual Testing</h3>
+                        <p class="text-sm text-muted-foreground">
+                          Exploratory testing, regression testing, black-box and white-box testing, and test case
+                          design.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="code" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">Test Automation</h3>
+                        <p class="text-sm text-muted-foreground">
+                          Cypress, Playwright, Vitest, Gherkin, and custom automation frameworks using JavaScript.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="workflow" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">API Testing</h3>
+                        <p class="text-sm text-muted-foreground">
+                          Manual and automated API testing, integration testing.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="play-circle" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">Programming</h3>
+                        <p class="text-sm text-muted-foreground">
+                          JavaScript, Java, C#, and test automation scripting.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="file-code" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">Bug Management</h3>
+                        <p class="text-sm text-muted-foreground">
+                          Bug reporting, tracking, and verification using Jira, Mantis, and HP ALM Quality Center.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="flex flex-col items-center space-y-4 p-6">
+                      <i data-lucide="check-circle" class="h-12 w-12 text-primary"></i>
+                      <div class="space-y-2 text-center">
+                        <h3 class="font-bold">Team Management</h3>
+                        <p class="text-sm text-muted-foreground">Team leadership and client communication.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap justify-center gap-2 pt-8">
+                <span class="badge">Cypress</span>
+                <span class="badge">Playwright</span>
+                <span class="badge">Vitest</span>
+                <span class="badge">Gherkin</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Java</span>
+                <span class="badge">C#</span>
+                <span class="badge">API Testing</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">Jira</span>
+                <span class="badge">Mantis</span>
+                <span class="badge">HP ALM</span>
+                <span class="badge">Black-box Testing</span>
+                <span class="badge">White-box Testing</span>
+                <span class="badge">Regression Testing</span>
+                <span class="badge">Performance Testing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Education</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">My academic background</p>
+              </div>
+              <div class="mx-auto w-full max-w-3xl space-y-8">
+                <div class="grid gap-6 sm:grid-cols-2">
+                  <div class="card overflow-hidden">
+                    <div class="bg-primary p-4">
+                      <i data-lucide="graduation-cap" class="h-8 w-8 text-primary-foreground"></i>
+                    </div>
+                    <div class="card-content p-6">
+                      <div class="space-y-2">
+                        <h3 class="text-xl font-bold">Bachelor's Degree in Information Systems</h3>
+                        <p class="text-muted-foreground">
+                          Federal University of Bahia (UFBA) | Graduated 03/2019
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card overflow-hidden">
+                    <div class="bg-primary p-4">
+                      <i data-lucide="graduation-cap" class="h-8 w-8 text-primary-foreground"></i>
+                    </div>
+                    <div class="card-content p-6">
+                      <div class="space-y-2">
+                        <h3 class="text-xl font-bold">Technical Course in Information Technology</h3>
+                        <p class="text-muted-foreground">Federal Institute of Bahia (IFBA) | 2008-2011</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Certifications</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  Professional certifications in testing and quality assurance
+                </p>
+              </div>
+              <div class="mx-auto w-full max-w-3xl space-y-8">
+                <div class="grid gap-6 sm:grid-cols-2">
+                  <div class="card">
+                    <div class="card-content p-6">
+                      <div class="space-y-2">
+                        <h3 class="font-bold">CTFL (Certified Tester Foundation Level)</h3>
+                        <p class="text-muted-foreground">BSTQB nº 15-CTFL-04277-BR</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content p-6">
+                      <div class="space-y-2">
+                        <h3 class="font-bold">CTAL (Certified Tester Test Automation Engineer)</h3>
+                        <p class="text-muted-foreground">ISTQB nº 19-CTAL-TAE-00829-BR</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Work Experience</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  My professional journey in quality assurance
+                </p>
+              </div>
+              <div class="mx-auto w-full max-w-3xl space-y-8">
+                <div class="relative pl-8 border-l-2 border-muted-foreground/20">
+                  <div class="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
+                  <div class="space-y-2">
+                    <h3 class="text-xl font-bold">Quality Assurance Engineer</h3>
+                    <p class="text-muted-foreground">Mindera | 11/2019 - Present</p>
+                    <p class="text-sm font-medium">Key Projects: Harrods, Farfetch, 2K</p>
+                    <ul class="list-disc pl-5 space-y-2 text-left">
+                      <li>Writing and executing black-box and white-box tests</li>
+                      <li>Performing API testing (manual and automated)</li>
+                      <li>Creating exploratory, regression, acceptance, integration, and performance tests</li>
+                      <li>Bug reporting and tracking</li>
+                      <li>Developing and maintaining automated tests (frontend and backend)</li>
+                      <li>Team management</li>
+                      <li>Client communication and follow-ups</li>
+                    </ul>
+                    <p class="text-sm font-medium pt-2">Tools Used: Cypress, Playwright, JavaScript, TypeScript, Jira</p>
+                  </div>
+                </div>
+                <div class="relative pl-8 border-l-2 border-muted-foreground/20">
+                  <div class="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
+                  <div class="space-y-2">
+                    <h3 class="text-xl font-bold">Quality Analyst</h3>
+                    <p class="text-muted-foreground">WEX | 09/2019 - 10/2019</p>
+                    <ul class="list-disc pl-5 space-y-2 text-left">
+                      <li>Executing black-box tests</li>
+                      <li>Conducting exploratory and regression testing</li>
+                      <li>Bug reporting</li>
+                      <li>Creating manual and automated tests</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="relative pl-8 border-l-2 border-muted-foreground/20">
+                  <div class="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-primary"></div>
+                  <div class="space-y-2">
+                    <h3 class="text-xl font-bold">Quality Analyst</h3>
+                    <p class="text-muted-foreground">
+                      BRISA – Sociedade para o Desenvolvimento da Tecnologia da Informação | 08/2014 - 08/2019
+                    </p>
+                    <ul class="list-disc pl-5 space-y-2 text-left">
+                      <li>Executing black-box tests on mobile devices (smartphones and wearables)</li>
+                      <li>
+                        Performing manual tests, including exploratory, regression, confirmation, and performance
+                        tests
+                      </li>
+                      <li>Bug reporting and tracking</li>
+                    </ul>
+                    <p class="text-sm font-medium pt-2">Tools Used: Mantis, HP ALM Quality Center</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Languages Section -->
+      <section id="languages" class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Languages</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">Communication skills</p>
+              </div>
+              <div class="mx-auto w-full max-w-3xl">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div class="card">
+                    <div class="card-content p-6">
+                      <div class="flex justify-between items-center">
+                        <h3 class="font-bold">English</h3>
+                        <span class="badge">C1 (Advanced)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content p-6">
+                      <div class="flex justify-between items-center">
+                        <h3 class="font-bold">Portuguese</h3>
+                        <span class="badge">Native</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get In Touch</h2>
+                <p class="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                  Let's discuss how I can help ensure quality in your software projects
+                </p>
+              </div>
+              <div class="mx-auto w-full max-w-3xl">
+                <div class="flex flex-col sm:flex-row gap-3 w-full">
+                  <a href="mailto:joseolimpionegrao@gmail.com" class="btn btn-lg btn-primary flex-1">
+                    <i data-lucide="mail" class="mr-2 h-6 w-6"></i> Email Me
+                  </a>
+                  <a href="tel:+351910928570" class="btn btn-lg btn-outline flex-1">
+                    <span role="img" aria-label="phone" class="mr-2 text-xl">📱</span> +351 910 928 570
+                  </a>
+                  <a href="https://www.linkedin.com/in/jos%C3%A9-negr%C3%A3o-ctfl-ctal-tae-658074126/" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-secondary flex-1">
+                    <i data-lucide="linkedin" class="mr-2 h-6 w-6"></i> LinkedIn
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full border-t py-6 md:py-0">
+      <div class="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
+        <p class="text-sm text-muted-foreground">
+          © <span id="current-year"></span> José Olimpio Mouzinho Negrão. All rights reserved.
+        </p>
+        <p class="text-sm text-muted-foreground">Porto, Portugal</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    
+    // Check for saved theme preference or use default dark theme
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.body.classList.toggle('dark', savedTheme === 'dark');
+    
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  </script>
+</body>
+</html>
+
