@@ -23,11 +23,11 @@
 }
 
 .dark {
-  --background: 222.2 47.4% 11.2%;
+  --background: 0 0% 0%;
   --foreground: 210 40% 98%;
-  --card: 222.2 47.4% 11.2%;
+  --card: 0 0% 7%;
   --card-foreground: 210 40% 98%;
-  --popover: 222.2 47.4% 11.2%;
+  --popover: 0 0% 7%;
   --popover-foreground: 210 40% 98%;
   --primary: 217.2 91.2% 59.8%;
   --primary-foreground: 222.2 47.4% 11.2%;
@@ -156,6 +156,10 @@ body {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .pt-2 {
