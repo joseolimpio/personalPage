@@ -1,6 +1,6 @@
 # José Negrão - QA Engineer Portfolio
 
-This is a simple, responsive portfolio website for José Negrão, a Quality Assurance Engineer. The site is built with HTML, CSS, and minimal JavaScript, making it perfect for hosting on GitHub Pages.
+The site is built with HTML, CSS, and minimal JavaScript, making it perfect for hosting on GitHub Pages.
 
 ## Features
 
